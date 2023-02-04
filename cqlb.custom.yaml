@@ -1,0 +1,7 @@
+patch:
+  speller:
+    alphabet: 'abcdefghijklmnopqrstuvwxyz;,./'
+    initials: 'abcdefghijklmnopqrstuvwxyz'
+    delimiter: "`"
+    auto_clear: max_length
+    auto_select: false 

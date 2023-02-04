@@ -1,0 +1,30 @@
+patch:
+  app_options:
+    com.runningwithcrayons.Alfred:
+      ascii_mode: true
+    com.apple.Spotlight:
+      ascii_mode: true
+    com.apple.Terminal:
+      ascii_mode: true
+      no_inline: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+      no_inline: true
+    com.apple.dt.Xcode:
+      ascii_mode: true
+    com.microsoft.VSCode:
+      ascii_mode: true
+      no_inline: true
+      vim_mode: true
+    com.google.Chrome:
+      ascii_mode: true
+      vim_mode: true
+    org.vim.MacVim:
+      ascii_mode: true
+      no_inline: true
+      vim_mode: true
+    com.DanPristupov.Fork:
+      ascii_mode: true
+    com.tdesktop.Telegram:
+      inline: true
+  style/font_face: "cqkmcf"
