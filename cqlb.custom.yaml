@@ -1,7 +1,27 @@
 patch:
-  speller:
-    alphabet: 'abcdefghijklmnopqrstuvwxyz;,./'
-    initials: 'abcdefghijklmnopqrstuvwxyz'
-    delimiter: "`"
-    auto_clear: max_length
-    auto_select: false 
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: ["中文", "西文"]
+    - name: new_spelling
+      reset: 1
+      states: ["隐", "显"]
+    - name: new_hide_pinyin
+      reset: 0
+      states: ["音", "哑"]
+    - name: full_shape
+      reset: 0
+      states: ["半角", "全角"]
+    - name: ascii_punct
+      reset: 0
+      states: ["。，", "．，"]
+    - name: zh_trad
+      reset: 0
+      states: ["简", "繁"]
+    - name: emoji_suggestion
+      reset: 1
+      states: ["🈚️", "🈶"]
+  speller/auto_select: false
+  translator/enable_user_dict: false
+  translator/enable_encoder: true
+  translator/enable_sentence: false

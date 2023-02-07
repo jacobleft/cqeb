@@ -14,7 +14,6 @@ patch:
       ascii_mode: true
     com.microsoft.VSCode:
       ascii_mode: true
-      no_inline: true
       vim_mode: true
     com.google.Chrome:
       ascii_mode: true
