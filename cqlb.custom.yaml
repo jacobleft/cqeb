@@ -22,6 +22,6 @@ patch:
       reset: 1
       states: ["🈚️", "🈶"]
   speller/auto_select: false
-  translator/enable_user_dict: false
+  translator/enable_user_dict: true
   translator/enable_encoder: true
   translator/enable_sentence: false
