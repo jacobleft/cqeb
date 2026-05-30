@@ -1,0 +1,19 @@
+recipe:
+  Rx: cqeb
+  description: >-
+    Install cqeb schemas and their Lua runtime files.
+
+install_files:
+  - *.schema.yaml
+  - *.dict.yaml
+  - key_bindings.yaml
+  - punctuation.yaml
+  - symbols.yaml
+  - essay-zh-hans.txt
+  - rime.lua
+  - lua/*.lua
+  - lua/*.txt
+  - lua/lib/*.lua
+  - opencc/*.json
+  - opencc/*.ocd
+  - opencc/*.txt
